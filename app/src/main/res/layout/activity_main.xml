@@ -7,13 +7,27 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:onClick="iniciarActivitySecundario"
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Iniciar activity 2"
+        android:onClick="mensajeActivitySecundario"
+        android:text="Lanzar mensaje"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.324" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="73dp"
+        android:onClick="iniciarActivitySecundario"
+        android:text="Ir a activity secundario"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:ignore="OnClick" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
