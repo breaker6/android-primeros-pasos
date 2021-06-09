@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.HelloWorld">
-        <activity android:name=".LayoutRelative"></activity>
+        <activity android:name=".FormularioENtrada"></activity>
+        <activity android:name=".LayoutRelative" />
         <activity android:name=".LayoutLinear" />
         <activity android:name=".ActivitySecundario" />
         <activity android:name=".MainActivity">

@@ -48,4 +48,12 @@ public class MainActivity extends AppCompatActivity {
         //Con el metodo startActivity lo ejecutaremos
         startActivity(intentLayoutRelative);
     }
+
+    public void verFormularioAcceso(View view) {
+        //Declaramos el Intent que corresconderá a la pantalla o activity que queremos cargar
+        //Habrá que declarar su clase
+        Intent intentFormularioEntrada = new Intent(this, FormularioENtrada.class);
+        //Con el metodo startActivity lo ejecutaremos
+        startActivity(intentFormularioEntrada);
+    }
 }
