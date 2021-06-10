@@ -56,4 +56,12 @@ public class MainActivity extends AppCompatActivity {
         //Con el metodo startActivity lo ejecutaremos
         startActivity(intentFormularioEntrada);
     }
+
+    public void verActivityFragments(View view) {
+        //Declaramos el Intent que corresconderá a la pantalla o activity que queremos cargar
+        //Habrá que declarar su clase
+        Intent intentFragmentsActivity = new Intent(this, FragmentsActivity.class);
+        //Con el metodo startActivity lo ejecutaremos
+        startActivity(intentFragmentsActivity);
+    }
 }
